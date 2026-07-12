@@ -1,1 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>KV Kortrijk | Summer Transfers 2026</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="header-content">
+
+        <img src="images/logo.png" class="logo" alt="KV Kortrijk Logo">
+
+        <div>
+
+            <h1>KV Kortrijk</h1>
+
+            <p>Summer Transfer Window 2026</p>
+
+        </div>
+
+    </div>
+
+</header>
+
+<section class="stats">
+
+    <div class="stat">
+        <h2 id="incomingCount">0</h2>
+        <span>Incoming</span>
+    </div>
+
+    <div class="stat">
+        <h2 id="outgoingCount">0</h2>
+        <span>Outgoing</span>
+    </div>
+
+    <div class="stat">
+        <h2 id="spent">€0</h2>
+        <span>Spent</span>
+    </div>
+
+    <div class="stat">
+        <h2 id="received">€0</h2>
+        <span>Received</span>
+    </div>
+
+</section>
+
+<div class="search">
+
+<input
+type="text"
+id="search"
+placeholder="Search player...">
+
+</div>
+
+<main>
+
+<section class="column">
+
+<h2>📥 Incoming</h2>
+
+<div class="category">
+
+<h3>Bought</h3>
+
+<div id="incomingBought" class="cards"></div>
+
+</div>
+
+<div class="category">
+
+<h3>On Loan</h3>
+
+<div id="incomingLoan" class="cards"></div>
+
+</div>
+
+<div class="category">
+
+<h3>Extended</h3>
+
+<div id="incomingExtended" class="cards"></div>
+
+</div>
+
+<div class="category">
+
+<h3>Returning from Loan</h3>
+
+<div id="incomingReturn" class="cards"></div>
+
+</div>
+
+</section>
+
+<section class="column">
+
+<h2>📤 Outgoing</h2>
+
+<div class="category">
+
+<h3>Sold</h3>
+
+<div id="outgoingSold" class="cards"></div>
+
+</div>
+
+<div class="category">
+
+<h3>On Loan</h3>
+
+<div id="outgoingLoan" class="cards"></div>
+
+</div>
+
+<div class="category">
+
+<h3>Released</h3>
+
+<div id="outgoingReleased" class="cards"></div>
+
+</div>
+
+</section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
