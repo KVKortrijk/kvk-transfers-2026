@@ -68,8 +68,6 @@ const transfers = [
 
 ];
 
-];
-
 function createCard(player){
 
 return `
