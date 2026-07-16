@@ -151,7 +151,7 @@ const transfers = [
     {
         direction: "outgoing",
         category: "Released",
-        name: "Youssef Challou",
+        name: "Youssef Challouk",
         position: "CAM / RW / LW",
         value: "€250k",
         fee: "Expired Contract",
