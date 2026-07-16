@@ -40,7 +40,16 @@ const transfers = [
         club: "Nagoya Grampus",
         image: "images/ken-masui.png"
     },
-
+{
+    direction: "incoming",
+    category: "On Loan",
+    name: "Goduine Koyalipou",
+    position: "ST / RW",
+    value: "€2.5m",
+    fee: "Loan (Option to Buy: YES)",
+    club: "RC Lens",
+    image: "images/goduine-koyalipou.png"
+},
     {
         direction: "incoming",
         category: "On Loan",
