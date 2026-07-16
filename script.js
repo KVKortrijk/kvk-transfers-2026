@@ -9,7 +9,7 @@ const transfers = [
         club: "Maccabi Haifa",
         image: "images/podgoreanu.png"
     },
-
+ {
     direction: "incoming",
     category: "Bought",
     name: "Nayel Mehssatou",
@@ -18,7 +18,7 @@ const transfers = [
     fee: "€300k",
     club: "Standard Liège",
     image: "images/nayel-mehssatou.png"
-
+ },
     {
         direction: "incoming",
         category: "Bought",
