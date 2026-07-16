@@ -85,7 +85,7 @@ const transfers = [
         {
         direction: "outgoing",
         category: "Sold",
-        name: "Mouhamed Guèye",
+        name: "Mouhamed Gueye",
         position: "CDM / CM",
         value: "€200k",
         fee: "€50k",
