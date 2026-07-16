@@ -10,6 +10,15 @@ const transfers = [
         image: "images/podgoreanu.png"
     },
 
+    direction: "incoming",
+    category: "Bought",
+    name: "Nayel Mehssatou",
+    position: "CM / CDM / RB",
+    value: "€1.5m",
+    fee: "€300k",
+    club: "Standard Liège",
+    image: "images/nayel-mehssatou.png"
+
     {
         direction: "incoming",
         category: "Bought",
