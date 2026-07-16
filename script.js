@@ -81,6 +81,82 @@ const transfers = [
         fee: "Returned from Loan",
         club: "R Knokke FC",
         image: "images/mohamed-boussadia.png"
+    },
+        {
+        direction: "outgoing",
+        category: "Sold",
+        name: "Mouhamed Guèye",
+        position: "CDM / CM",
+        value: "€200k",
+        fee: "€50k",
+        club: "HJK Helsinki",
+        image: "images/mouhamed-gueye.png"
+    },
+
+    {
+        direction: "outgoing",
+        category: "Sold",
+        name: "Ilan Hurtevent",
+        position: "RB",
+        value: "€500k",
+        fee: "€1.3m",
+        club: "Union Saint-Gilloise",
+        image: "images/ilan-hurtevent.png"
+    },
+
+    {
+        direction: "outgoing",
+        category: "On Loan",
+        name: "Kyan Himpe",
+        position: "ST",
+        value: "N/A",
+        fee: "Loan (Option to Buy: NO)",
+        club: "Lierse SK",
+        image: "images/kyan-himpe.png"
+    },
+
+    {
+        direction: "outgoing",
+        category: "Released",
+        name: "Manuel Osifo",
+        position: "CDM / CB / RB",
+        value: "€400k",
+        fee: "Returned from Loan",
+        club: "OH Leuven",
+        image: "images/manuel-osifo.png"
+    },
+
+    {
+        direction: "outgoing",
+        category: "Released",
+        name: "Cassius Mailula",
+        position: "ST / RW / CAM",
+        value: "€500k",
+        fee: "Returned from Loan",
+        club: "No Club",
+        image: "images/cassius-mailula.png"
+    },
+
+    {
+        direction: "outgoing",
+        category: "Released",
+        name: "Jonathan Afolabi",
+        position: "ST / LW / CF",
+        value: "€200k",
+        fee: "Expired Contract",
+        club: "Shamrock Rovers",
+        image: "images/jonathan-afolabi.png"
+    },
+
+    {
+        direction: "outgoing",
+        category: "Released",
+        name: "Youssef Challou",
+        position: "CAM / RW / LW",
+        value: "€250k",
+        fee: "Expired Contract",
+        club: "No Club",
+        image: "images/youssef-challou.png"
     }
 ];
 function createCard(player) {
